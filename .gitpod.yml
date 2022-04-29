@@ -1,0 +1,10 @@
+tasks:
+  - init: |
+      cargo check --all
+      cargo test --all
+      cargo build --all
+
+vscode:
+  extensions:
+    - Swellaby.vscode-rust-test-adapter
+    - matklad.rust-analyzer
